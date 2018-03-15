@@ -77,8 +77,8 @@ body {
   line-height: 1.5;
   color: #3E2121;
   text-align: left;
- 
-   background: url(../img/1234568.jpg) fixed center center no-repeat;
+   background-image: url(../img/1234568.jpg);
+  
    background-size: cover;
 
 }
@@ -654,10 +654,8 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   margin-bottom: 0px;
-  margin-top: 80px;
+  margin-top: 150px;
 }
-
-
 
 .no-gutters {
   margin-right: 0;
@@ -4166,7 +4164,6 @@ tbody.collapse.show {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-
   }
   .navbar-expand-sm .navbar-nav {
     -webkit-box-orient: horizontal;

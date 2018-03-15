@@ -59,11 +59,6 @@ body {
   vertical-align: baseline;
   color: #646464;
 }
-
-
-
-
-
 .floatleft {
   float: left;
 }
@@ -403,8 +398,6 @@ Section Area
 div.read-more {
   display: block;
   text-align: center;
- margin-top:40px;
-
 }
 div.read-more a {
   padding: 12px 70px;
@@ -422,7 +415,6 @@ div.read-more a:hover {
   background:#FC9398;
   color: #BE1B63;
   border: 1px solid #FC9398;
-
 }
 /* ------------------------------------
 4.Home Page Our Service Section Area Start Here 
