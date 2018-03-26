@@ -59,6 +59,11 @@ body {
   vertical-align: baseline;
   color: #646464;
 }
+
+
+
+
+
 .floatleft {
   float: left;
 }
@@ -103,17 +108,7 @@ h5,
 h6 {
   margin: 0 0 0px;
 }
-a {
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-  text-decoration: none;
-}
-a:hover {
-  color: #820529;
-  text-decoration: none;
-  -webkit-transition: all 0.5s ease 0s;
-  transition: all 0.5s ease 0s;
-}
+
 a:active,
 a:hover {
   outline: 0 none;
@@ -122,7 +117,19 @@ ul {
   list-style: outside none none;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
+
+.li{
+  float: left;
+}
+
+.li a{
+  font-size: 18px;
+
+}
+
+
 .clear {
   clear: both;
 }
@@ -301,23 +308,9 @@ ul {
   padding: 0 25%;
   font-weight: normal;
 }
-.slider-area .slider-1 div.read-more {
-  display: block;
-  margin-top: 50px;
-}
-.slider-area .slider-1 div.read-more a {
-  display: block;
-  padding: 17px 40px;
-  color: #ffffff;
-  border: 1px solid #FEC1A9;
-  transition: all 0.5s ease 0s;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  border-radius: 40px;
-}
-.slider-area .slider-1 div.read-more a:hover {
-  background: #FEC1A9;
-}
+
+
+
 .slider-area .slider-2 p {
   color: #e8e8e8;
   font-size: 18px;
@@ -351,6 +344,10 @@ ul {
   padding: 0 25%;
   font-weight: normal;
 }
+
+
+
+
 .slider-area .slider-2 div.read-more {
   display: block;
   margin-top: 50px;
@@ -367,7 +364,33 @@ ul {
 }
 .slider-area .slider-2 div.read-more a:hover {
   background: #FEC1A9;
+
+
+
 }
+
+.read-moreup{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-------------------------------------
 Section Area 
 ---------------------------------------*/
@@ -398,6 +421,8 @@ Section Area
 div.read-more {
   display: block;
   text-align: center;
+  width: 100%;
+  height:100%;
 }
 div.read-more a {
   padding: 12px 70px;
@@ -408,13 +433,14 @@ div.read-more a {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important;
+  background: rgba(253, 202, 185, 0.65) none repeat scroll 0 0 !important;
 
 }
 div.read-more a:hover {
   background:#FC9398;
   color: #BE1B63;
   border: 1px solid #FC9398;
+
 }
 /* ------------------------------------
 4.Home Page Our Service Section Area Start Here 
@@ -747,46 +773,7 @@ div.read-more a:hover {
 .home-page-store-area .home-page-total-store {
   padding-top: 50px;
 }
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs {
-  margin: 0 0 70px;
-  padding: 0;
-  border: 0 !important;
-  position: relative;
-}
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs:after {
-  position: absolute;
-  top: 19px;
-  left: 25%;
-  width: 60%;
-  height: 1px;
-  background: #d9d9d9;
-  content: "";
-}
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs li {
-  border: 1px solid #ee0548;
-  margin-right: 7px;
-}
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs li.active a {
-  border: 0px solid #ffffff;
-  background: #ee0548;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin: 0;
-  color: #ffffff;
-}
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs li a {
-  border: 0px solid #ffffff;
-  color: #ee0548;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-  margin: 0;
-}
-.home-page-store-area .home-page-total-store .home-shop-area ul.nav-tabs li a:hover {
-  background: #ee0548;
-  color: #ffffff;
-}
+.home-page-store-area .home-page-total-store .
 .home-page-store-area .home-page-total-store .home-shop-area .tab-content .groom-area .single-groom {
   margin: 0 5px;
   position: relative;
@@ -2659,6 +2646,7 @@ Contact Us Page Area Start Here
   font-size: 30px;
   letter-spacing: 10px;
 }
+
 .four-zero-four-area .four-zero-page-area div.read-more {
   display: inline-block;
   margin-top: 30px;
@@ -2676,3 +2664,18 @@ Contact Us Page Area Start Here
 .four-zero-four-area .four-zero-page-area div.read-more a:hover {
   background: #ee0548;
 }
+
+
+.ul-item a{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
