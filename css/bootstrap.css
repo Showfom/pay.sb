@@ -78,7 +78,7 @@ body {
   color: #3E2121;
   text-align: left;
  
-   background: url(../img/1234568.jpg) fixed center center no-repeat;
+   background-color:#000000；
    background-size: cover;
 
 }
