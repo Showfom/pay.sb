@@ -652,6 +652,11 @@ pre code {
 }
 
 .row {
+  position:relative;  
+    width:100%;
+    min-height:100%; 
+      padding-bottom: 100px;  
+    box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -662,6 +667,8 @@ pre code {
   margin-bottom: 0px;
   margin-top: 100px;
 }
+}
+.footer{height:50px;position:fixed;bottom:0px;left:0px;} 
 
 .row3 {
   display: -webkit-box;
@@ -671,7 +678,7 @@ pre code {
       flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  margin-bottom: 200px;
+  margin-bottom: 0px;
   margin-top: 80px;
   text-align: center;
 
@@ -1746,7 +1753,7 @@ pre code {
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
-  background-color:rgba(254, 238, 213, 0.6);
+  background-color:rgba(255, 255, 255, 0.48);
 }
 
 .table th,
@@ -4075,6 +4082,7 @@ tbody.collapse.show {
 
 .navbar > .container,
 .navbar > .container-fluid {
+  position:relative;width:100%;min-height:100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -57,12 +57,13 @@ body {
   font-size: 14px;
   line-height: 24px;
   vertical-align: baseline;
-  color: #646464;
+  color: #ccc;
+  padding-bottom:50px;
 }
 
 
 
-
+.footer{height:50px;position:fixed;bottom:0px;left:0px;} 
 
 .floatleft {
   float: left;
@@ -1088,10 +1089,11 @@ div.read-more a:hover {
 13.Footer Area Start Here 
 ---------------------------------------*/
 .footer-top-area {
-  padding: 100px 0;
+  padding: 0px 0;
   background: url(img/footer/bg.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
+  height: 150px
 }
 .footer-top-area .single-footer ul li {
   font-size: 36px;
@@ -2545,7 +2547,7 @@ Contact Us Page Area Start Here
 .standard-button {
     border: 0px solid #FFB9FC !important;
     border-radius: 0 !important;
-    background-color: rgba(254, 141, 151, 0.3);;
+    background-color: #000000;
 }
 .btn {
     display: inline-block;
